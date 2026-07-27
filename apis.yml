@@ -1,8 +1,31 @@
 aid: halda-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/halda-therapeutics.png
 name: Halda Therapeutics
-description: Halda Therapeutics is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Halda Therapeutics was a clinical-stage biotechnology company and Yale
+  University spinout developing oral, targeted cancer therapies built on its
+  proprietary RIPTAC (Regulated Induced Proximity TArgeting Chimera) platform, a
+  novel "hold and kill" modality for the precision treatment of solid tumors. Its
+  lead program, HLD-0915, is a first-in-class oral RIPTAC therapeutic in
+  development for metastatic castration-resistant prostate cancer (mCRPC), with
+  earlier-stage candidates spanning breast, lung, and other tumor types. Backed by
+  investors including Canaan Partners, Halda was acquired by Johnson & Johnson in
+  2025 for approximately $3.05 billion in cash, with its platform folded into
+  Johnson & Johnson Innovative Medicine's oncology pipeline. As a therapeutics
+  developer, Halda operated no public developer platform, API, or documentation
+  surface; this profile is maintained in the API Evangelist network as a company
+  identity and portfolio-graph record rather than an API producer.
 url: https://raw.githubusercontent.com/api-evangelist/halda-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +33,38 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: johnson-and-johnson
+x-acquisition-value-usd: '3050000000'
+x-acquisition-year: '2025'
+x-industry: biotechnology
+x-no-api-surface: 'true'
+x-enrichment-note: >-
+  Enrichment 2026-07-19: haldatx.com now redirects to jnj.com/innovativemedicine
+  following the Johnson & Johnson acquisition. No public API, developer portal,
+  documentation, SDK, or technical surface exists (searched). Identity-only
+  enrichment; no API artifacts produced (no fabrication).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Cancer Therapeutics
+- Prostate Cancer
+- Drug Discovery
+- Life Sciences
+- Yale Spinout
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
