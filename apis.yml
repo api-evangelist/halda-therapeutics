@@ -44,7 +44,7 @@ x-enrichment-note: >-
   following the Johnson & Johnson acquisition. No public API, developer portal,
   documentation, SDK, or technical surface exists (searched). Identity-only
   enrichment; no API artifacts produced (no fabrication).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
